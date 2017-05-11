@@ -26,7 +26,7 @@ void ofApp::draw(){
     ofSetColor(255, 0, 0);
     ofDrawBitmapString("Frame Rate : " + ofToString(ofGetFrameRate()), 10, 30);
     ofDrawBitmapString("Time : " + ofToString(ac.getElapsedTime()), 10, 60);
-    ofDrawBitmapString("Turn : " + ofToString(ac.getAnimationTurn()), 10, 90);
+    ofDrawBitmapString("Animation : " + ofToString(ac.getAnimationTurn() + 1) + "/" + ofToString(ANIMATION_COUNT), 10, 90);
     ofPopMatrix();
 }
 
