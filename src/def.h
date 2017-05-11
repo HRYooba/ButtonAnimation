@@ -4,7 +4,7 @@
 #include "ofxGui.h"
 #include "ofxXmlSettings.h"
 
-#define RESOLUTION_RATIO 0.7
+#define RESOLUTION_RATIO 1
 
 #define DISPLAY_WIDTH 1920
 #define DISPLAY_HEIGHT 1080
